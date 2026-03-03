@@ -55,7 +55,6 @@ export default function Home(){
   return(
     <Layout>
       <Container>
-        <Title>FilmFetch</Title>
         <Panel>
           <h2 style={{color: 'white'}}>{isLogin ? 'Login' : 'Sign Up'}</h2>
           
