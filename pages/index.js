@@ -23,6 +23,9 @@ const SwitchText = styled.p`
   color: #888;
   cursor: pointer;
   margin-top: 15px;
+  &:hover {
+    opacity: 0.8;
+  }
 `;
 
 export default function Home(){
